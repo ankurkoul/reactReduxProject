@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.9/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.9/react-dom.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+
+
+
+        //1.cerate element
+        //ReactElement("elemrntToBeCreated", äny attributes object, childeren)
+        var h1Element = React.createElement("h1", { id: 'myHeader' }, "Hello React.... !!!");
+
+        //2.helper methods
+        var h1Element = React.DOM.h1({ id: 'myHeader' }, "Hello React....11111 !!!");
+        ReactDOM.render(h1Element, document.getElementById("root"));
+
+        //3.jsx
+    </script>
+
+</body>
+
+</html>
